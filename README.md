@@ -1,1 +1,1 @@
-# correlation-of-temperature-and-tourism-in-baguio
+# Correlation of Temperature and Tourism in Baguio
