@@ -30,20 +30,21 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/home.jpg" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
 								<h1>Hi. We are <strong>Group Name</strong>.</h1>
 							</header>
 							<p>And this is our project, <strong>Correlation of Temperature and Tourism in Baguio.</strong> 
-								Our main objective is to use Data science techniques in gaining new insights regarding climate change and global warming.</p>
+								Our main objective is to use Data science techniques in gaining new insights regarding climate change and global warming and form 
+								recommendations to positively impact tourism in Baguio.</p>
 						</div>
 					</div>
 				</div>
 			</article>
 
-		<!-- Overview -->
+		<!-- Background -->
 			<article id="overview" class="wrapper style2">
 				<div class="container">
 					<header>
@@ -68,6 +69,26 @@
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Solution</h3>
+								<p align="justify">We propose making a correlation model as well as a predictive model on the two variables to see their correlation and future trends. 
+									Insights will be gathered from the result to help in forming recommendations regarding climate change and global warming as well 
+									as tourism in Baguio.
+								</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article id="Questions" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>This led us to ask the following:</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
 								<span class="icon solid featured fa-camera-retro"></span>
 								<h3>Problem</h3>
 								<p align="justify"> Is there a correlation between the number of tourists and the average temperature of Baguio?</p>
@@ -77,10 +98,12 @@
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
 								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Solution</h3>
-								<p align="justify">We propose making a correlation model as well as a predictive model on the two variables to see their correlation and future trends. 
-									Insights will be gathered from the result to help in forming recommendations regarding climate change and global warming as well 
-									as tourism in Baguio.
+								<h3>Hypotheses</h3>
+								<p align="justify"> Null Hypothesis: There is no correlation between the temperature and the number of tourists in Baguio.
+									Alternative Hypothesis: There is a negative correlation between the temperature and the number of tourists in Baguio. 
+									Action Plan: To find the correlation between the correlation between the temperature and the number of tourists in Baguio 
+									as well as make predictions on the trends of the average temperature in Baguio and the number of tourists individually 
+									using data from 2011-2023.
 								</p>
 							</section>
 						</div>
@@ -98,30 +121,36 @@
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/beautifulsoup.png" alt="" /></a>
 								<h3><a href="#">Using BeautifulSoup</a></h3>
-								<p align="justify">Text</p>
+								<p align="justify">We retrieved the HTML content from the URL of the website and extracted 
+									important data from the daily observations table.
+								</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/selenium.png" alt="" /></a>
 								<h3><a href="#">Using Selenium</a></h3>
-								<p align="justify">Text</p>
+								<p align="justify">We imported the webdriver module to automate the chromedriver. </p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Using Chromewebdriver</a></h3>
-								<p align="justify">Text.</p>
+								<a href="#" class="image featured"><img src="images/chromedriver.png" alt="" /></a>
+								<h3><a href="#">Using Chromedriver</a></h3>
+								<p align="justify">We simulated accessing of the Weather Underground dataset using Chrome browser.  All the information 
+									from the dataset were collected such as daily temperature, humidity, pressure, dew point, wind speed, and precipitation.
+								</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Preprocessing</a></h3>
-								<p>Text</p>
+								<a href="#" class="image featured"><img src="images/curation2.webp" alt="" /></a>
+								<h3><a href="#">Data Curation</a></h3>
+								<p align="justify">The irrelevant variables have been removed from the original dataset. This is done manually via the editing of 
+									the spreadsheets generated by the data collection.
+								</p>
 							</article>
 						</div>
 					</div>
@@ -137,21 +166,23 @@
 				<div class="container">
 					<header>
 						<h2>Let's talk about our data science methodology.</h2>
-						<p>Proin odio consequat sapien vestibulum consequat lorem dolore feugiat.</p>
+						<p>Some information here to be updated in the future.</p>
 					</header>
 					<div class="row">
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/preprocessing.png" alt="" /></a>
 								<h3><a href="#">Data Preprocessing</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p align="justify">The data collected regarding the weather in Baguio is available daily. 
+									However, the tourism data is only available monthly. Thus, the averages of the data per month 
+									is calculated. The original code used for data collection is just modified to avoid manual preprocessing.</p>
 							</article>
 						</div>
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 								<h3><a href="#">Machine Learning</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>This will be edited and updated when available.</p>
 							</article>
 						</div>
 					</div>
